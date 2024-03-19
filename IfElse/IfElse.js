@@ -32,7 +32,7 @@ if ( number > 0){
 let number1;
 let number2;
 
-function TwoParametrs(number1,number2){
+function TwoParametrs(){
 number1 = parseInt(prompt ('Enter Number one'));
 number2 = parseInt(prompt('Enter number two'));
 if (number1>number2){
@@ -40,4 +40,14 @@ if (number1>number2){
 } else {
     alert(number2 + " is larger")
 }
+}
+console.log(TwoParametrs());
+
+// Write a program that checks whether a given year is a leap year or not.
+let year = parseInt(prompt('Enter year'));
+if (year%4 ===0 ){
+    alert('This year is leap')
+
+} else {
+    alert('This year is NOT leap')
 }
